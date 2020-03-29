@@ -13,6 +13,5 @@ spawnSync("/bin/sh", ["ios-install-third-party.sh"], { stdio: "inherit" });
 process.chdir(join(thirdPartyPath, "third-party", "glog-0.3.4"));
 spawnSync("/bin/sh", ["../../ios-configure-glog.sh"], { stdio: "inherit" });
 
-spawnSync("/bin/sh", ["ios-install-third-party.sh"], { stdio: "inherit" });
 process.chdir(join(thirdPartyPath, "third-party", "glog-0.3.5"));
 spawnSync("/bin/sh", ["../../ios-configure-glog.sh"], { stdio: "inherit" });
